@@ -1,0 +1,22 @@
+{
+  "name": "ehpm",
+  "version": "1.0.0",
+  "description": "快速启动ios模拟器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "is": "node ./install.js",
+    "ls": "node ./list.js",
+    "start": "node ./index.js"
+  },
+  "bin": {
+    "ehpm": "bin/ehpm"
+  },
+  "author": "wolfcao",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.17.0",
+    "inquirer": "^6.0.0",
+    "opn": "^5.4.0"
+  }
+}
